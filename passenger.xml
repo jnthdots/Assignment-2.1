@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="passenger.xsl" ?>
+<details>
+    <info id="1">
+        <name>JAYANTH</name>
+        <age>20</age>
+        <gender>male</gender>
+        <address>xxx</address>
+        <phone>9786575713</phone>
+        <aadhar>xxxx yyyy zzzz</aadhar>
+        <flightdetails>
+            <flightno>20AD01</flightno>
+            <from>MUMBAI</from>
+            <to>PUNE</to>
+            <amount>2500</amount>
+            <date>28.12.2020</date>
+        </flightdetails>
+    </info>
+    <info id="2">
+        <name>JOHN DURAIRAJ</name>
+        <age>48</age>
+        <gender>male</gender>
+        <address>xxx</address>
+        <phone>9629888870</phone>
+        <aadhar>xxxx yyyy zzzz</aadhar>
+        <flightdetails>
+            <flightno>20AD01</flightno>
+            <from>MUMBAI</from>
+            <to>KERALA</to>
+            <amount>4500</amount>
+            <date>28.12.2020</date>
+        </flightdetails>
+    </info>
+    <info id="3">
+        <name>THOOKUDURAI</name>
+        <age>49</age>
+        <gender>male</gender>
+        <address>xxx</address>
+        <phone>7010818118</phone>
+        <aadhar>xxxx yyyy zzzz</aadhar>
+        <flightdetails>
+            <flightno>20AD01</flightno>
+            <from>MUMBAI</from>
+            <to>CHENNAI</to>
+            <amount>4800</amount>
+            <date>28.12.2020</date>
+        </flightdetails>
+    </info>
+</details>

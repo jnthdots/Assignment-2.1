@@ -1,0 +1,10 @@
+
+   {
+      "NAME": "APJ",
+      "DEPATURE": "MUMBAI",
+      "DESTINATION": "PUNE",
+      "CURRENCY": "INR",
+      "PRICE": "2500",
+      "DATE": "28.12.2020",
+      "PAYMENT": "ONLINE PAYMENT"
+   }

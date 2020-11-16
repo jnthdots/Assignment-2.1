@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<flight>
+    <number>20AD01</number>
+    <name>APJ</name>
+    <type>Economy</type>
+    <seat category="AC">
+        <date>28.12.2020</date>
+        <from>MUMBAI</from>
+        <to>PUNE</to>
+        <availability>100</availability>
+    </seat>
+    <seat category="AC">
+        <date>28.11.2020</date>
+        <from>MUMBAI</from>
+        <to>KERALA</to>
+        <availability>50</availability>
+    </seat>
+    <seat category="AC">
+        <date>28.11.2020</date>
+        <from>MUMBAI</from>
+        <to>CHENNAI</to>
+        <availability>30</availability>
+    </seat>
+</flight>

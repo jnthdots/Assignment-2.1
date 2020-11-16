@@ -1,0 +1,50 @@
+[
+   {
+      "@id": "1",
+      "name": "JAYANTH",
+      "age": "20",
+      "gender": "male",
+      "address": "xxx",
+      "phone": "9786575713",
+      "aadhar": "xxxx yyyy zzzz",
+      "flightdetails": {
+         "flightno": "20AD01",
+         "from": "MUMBAI",
+         "to": "PUNE",
+         "amount": "2500",
+         "date": "28.12.2020"
+      }
+   },
+   {
+      "@id": "2",
+      "name": "JOHN DURAIRAJ",
+      "age": "48",
+      "gender": "male",
+      "address": "xxx",
+      "phone": "9629888870",
+      "aadhar": "xxxx yyyy zzzz",
+      "flightdetails": {
+         "flightno": "20AD01",
+         "from": "MUMBAI",
+         "to": "KERALA",
+         "amount": "4500",
+         "date": "28.12.2020"
+      }
+   },
+   {
+      "@id": "3",
+      "name": "THOOKUDURAI",
+      "age": "49",
+      "gender": "male",
+      "address": "xxx",
+      "phone": "7010818118",
+      "aadhar": "xxxx yyyy zzzz",
+      "flightdetails": {
+         "flightno": "20AD01",
+         "from": "MUMBAI",
+         "to": "CHENNAI",
+         "amount": "4800",
+         "date": "28.12.2020"
+      }
+   }
+]

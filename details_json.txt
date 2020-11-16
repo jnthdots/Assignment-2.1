@@ -1,0 +1,28 @@
+{
+   "number": "20AD01",
+   "name": "APJ",
+   "type": "Economy",
+   "seat": [
+      {
+         "@category": "AC",
+         "date": "28.12.2020",
+         "from": "MUMBAI",
+         "to": "PUNE",
+         "availability": "100"
+      },
+      {
+         "@category": "AC",
+         "date": "28.11.2020",
+         "from": "MUMBAI",
+         "to": "KERALA",
+         "availability": "50"
+      },
+      {
+         "@category": "AC",
+         "date": "28.11.2020",
+         "from": "MUMBAI",
+         "to": "CHENNAI",
+         "availability": "30"
+      }
+   ]
+}

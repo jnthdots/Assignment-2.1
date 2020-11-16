@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color:#00ffff ;
+}
+img {
+  border: 5px solid black;
+}
+	
+</style>
+</head>
+<body>
+<center><h1 style="color:black">JSON-parse example(18IT035)</h1></center>
+<b>
+<h3 style="color : red"> Content in the single quotes are JSON parsed values!!</h3>
+</b>
+
+<p id="jay"></p>
+
+<script>
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+  if (this.readyState == 4 && this.status == 200) {
+    var myObj = JSON.parse(this.responseText);
+    document.getElementById("jay").innerHTML = "Hi This is an example of JSON-parser.The NAME of the flight " + "'" + myObj.NAME  + "'" + ".The particular  has a depature named " +  "'" + myObj.DEPATURE +  "'" + " It has destination  " +  "'" + myObj.DESTINATION +  "'" +".It has a price value of" + "'" + myObj.CURRENCY + myObj.PRICE + "'" + "with the date of " +  "'" + myObj.DATE +  "'" + " and has the payment facility - " +  "'" + myObj.PAYMENT +  "'" ;
+  }
+};
+xmlhttp.open("GET", "json_parse.txt", true);
+xmlhttp.send();
+</script>
+
+<img src="https://jsonformatter.org/img/json-parser.png" alt="JSOn-Parser" width="200" height="200">
+
+<h2 style="color : black">This is the file <a href="json_parse.txt">json_parse.txt</a> that has been parsed!!</h2></strong>
+
+
+</body>
+</html>
